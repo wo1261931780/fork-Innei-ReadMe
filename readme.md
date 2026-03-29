@@ -1,5 +1,88 @@
 # Innei 🧑🏻‍💻 ![](https://visitor-badge.laobi.icu/badge?page_id=Innei.readme) [![wakatime](https://wakatime.com/badge/user/9213dc96-df0d-4e66-b0bb-50f9e04e988c.svg)](https://wakatime.com/@9213dc96-df0d-4e66-b0bb-50f9e04e988c)
 
+## README模板架构 | Template Architecture
+
+```mermaid
+graph TB
+    subgraph Header["📄 头部区域"]
+        A[访客计数徽章] --> B[WakaTime统计]
+        B --> C[GitHub Stats卡片]
+        C --> D[明暗主题切换]
+    end
+    
+    subgraph Profile["👤 个人简介"]
+        E[开发者身份] --> F[数字游民]
+        F --> G[技术栈展示]
+    end
+    
+    subgraph Skills["💼 技能展示"]
+        H[Web Developer] --> I[React/Next.js/TS]
+        J[Backend Developer] --> K[NestJS/Node.js]
+        L[iOS Developer] --> M[SwiftUI/RN]
+        N[DevOps] --> O[Docker/Git/Actions]
+    end
+    
+    subgraph Projects["🎯 项目展示"]
+        P[开源项目表格] --> Q[Stars/Forks/Issues]
+        R[玩具项目] --> S[创建时间/活跃度]
+        T[最近写作] --> U[博客文章列表]
+        V[最近Star] --> W[关注项目]
+    end
+    
+    subgraph Footer["📞 联系方式"]
+        X[社交媒体链接] --> Y[个人博客]
+        Z[赞助商展示] --> AA[自动刷新提示]
+    end
+    
+    style A fill:#e1f5ff
+    style C fill:#e1f5ff
+    style P fill:#c8e6c9
+    style X fill:#fff9c4
+```
+
+## 技术栈架构 | Tech Stack
+
+```mermaid
+mindmap
+  root((Innei<br/>技术栈))
+    前端开发
+      React生态
+        Next.js 9-14
+        TypeScript
+        GraphQL/Apollo
+      样式方案
+        Sass
+        Styled Components
+        TailwindCSS
+      构建工具
+        Vite
+        Rollup
+    后端开发
+      Node.js生态
+        NestJS 7-10
+        Fastify
+        Express
+      数据库
+        MongoDB
+        Prisma/Typegoose
+    DevOps
+      版本控制
+        Git
+        GitHub Actions
+      容器化
+        Docker
+      操作系统
+        Ubuntu
+        Arch Linux
+        macOS
+    开发环境
+      编辑器
+        VS Code
+        NeoVim
+      开发工具
+        Prettier
+        ESLint
+
 <picture>
   <source
     srcset="https://github-readme-stats.vercel.app/api?username=innei&show_icons=true&theme=dark"
